@@ -57,6 +57,3 @@ class Computadora(var RAM: Int, var Memoria: Int, var SO: String) {
         println("\n")
         }
     }
-
-
-
