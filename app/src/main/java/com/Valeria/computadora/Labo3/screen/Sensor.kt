@@ -1,4 +1,4 @@
-package com.Valeria.computadora.screen
+package com.Valeria.computadora.Labo3.screen
 
 import android.content.Context
 import android.hardware.Sensor

@@ -1,16 +1,12 @@
-package com.Valeria.computadora
+package com.Valeria.computadora.Labo3
 
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.setValue
 import androidx.navigation3.runtime.entryProvider
 import androidx.navigation3.runtime.rememberNavBackStack
 import androidx.navigation3.ui.NavDisplay
-import com.Valeria.computadora.screen.Home
-import com.Valeria.computadora.screen.IngresoTexto
-import com.Valeria.computadora.screen.LightSensor
+import com.Valeria.computadora.Labo3.screen.Home
+import com.Valeria.computadora.Labo3.screen.IngresoTexto
+import com.Valeria.computadora.Labo3.screen.LightSensor
 
 @Composable
 fun App() {
@@ -36,7 +32,7 @@ fun App() {
                 IngresoTexto(
                     navigateBack = { backStack.removeLastOrNull() },
 
-                )
+                    )
             }
             entry<Routes.Sensor> {
                 LightSensor(

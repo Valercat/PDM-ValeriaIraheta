@@ -1,4 +1,4 @@
-package com.Valeria.computadora
+package com.Valeria.computadora.Labo3
 
 class Estudiante(var nombre: String, var carnet: String, var asignatura: String){
     fun DatosEstudiante(){

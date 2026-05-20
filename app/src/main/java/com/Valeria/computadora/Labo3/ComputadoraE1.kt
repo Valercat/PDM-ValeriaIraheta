@@ -1,4 +1,4 @@
-package com.Valeria.computadora
+package com.Valeria.computadora.Labo3
 
 val ProgramasInstalados = listOf("WhatsApp 2009", "Sky 2026","YouTube 2026")
 fun Menu(){

@@ -1,4 +1,4 @@
-package com.Valeria.computadora.screen
+package com.Valeria.computadora.Labo3.screen
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize

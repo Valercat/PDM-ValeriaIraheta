@@ -1,4 +1,4 @@
-package com.Valeria.computadora
+package com.Valeria.computadora.Labo3
 
 fun main(){
     MenuC()

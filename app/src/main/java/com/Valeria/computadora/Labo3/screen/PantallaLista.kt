@@ -1,4 +1,4 @@
-package com.Valeria.computadora.screen
+package com.Valeria.computadora.Labo3.screen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -24,10 +24,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Color.Companion.Blue
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.Valeria.computadora.List.Ciclo01
-import com.Valeria.computadora.model.Estudiante
 
 @Composable
 fun IngresoTexto(navigateBack: () -> Unit) {

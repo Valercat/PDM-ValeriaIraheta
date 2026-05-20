@@ -1,4 +1,4 @@
-package com.Valeria.computadora.model
+package com.Valeria.computadora.Labo3.model
 
 data class Estudiante(
     var nombre: String,

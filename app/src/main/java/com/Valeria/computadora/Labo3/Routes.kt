@@ -1,4 +1,4 @@
-package com.Valeria.computadora
+package com.Valeria.computadora.Labo3
 
 import androidx.navigation3.runtime.NavKey
 import kotlinx.serialization.Serializable
