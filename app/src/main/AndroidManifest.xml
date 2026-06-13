@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
-        android:name="App_Application"
+        android:name="com.Valeria.computadora.Labo4.data.InitDatabase"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Computadora">
         <activity
-            android:name=".MainActivity"
+            android:name=".Labo4.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Computadora">

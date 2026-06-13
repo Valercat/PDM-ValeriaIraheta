@@ -1,9 +1,9 @@
-package com.Valeria.computadora.data.database
+package com.Valeria.computadora.Labo4.data.database
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.Valeria.computadora.data.database.dao.PostDao
-import com.Valeria.computadora.data.database.entities.Post
+import com.Valeria.computadora.Labo4.data.database.dao.PostDao
+import com.Valeria.computadora.Labo4.data.database.entities.Post
 
 @Database(
     entities = [Post::class],
